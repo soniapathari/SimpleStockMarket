@@ -22,6 +22,7 @@ public class StockMarketExample {
         int[] lastDividend = {0,8,23,8,13};
         String[] fixedDividendValue = {"","","","2%",""};
         int[]  perValue = {100,100,60,100,250};
+        // Getting Price Value from the user
         System.out.println("Enter the value of Price:");
         double price = sc.nextDouble();
 
