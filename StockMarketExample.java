@@ -39,7 +39,7 @@ public class StockMarketExample {
             }
            else fixedDividend.add(i, 0.0);
 
-           //Check the Stock Type and apply the appropriate formula based on type.
+           //Check the Stock Type and Calculating Dividend Yield based on Stock type.
             if(type[i].equals("Common")){
                 dividendYield.add(i, lastDividend[i] / price);
             }
