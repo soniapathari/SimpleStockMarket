@@ -91,6 +91,7 @@ public class TradeData {
         int count =0;
         for(Stocks s :stocksList){
             double vWSPrice = calsVWSP(s.trades);
+            System.out.println("Volume Weighted Stock Price is :" + vWSPrice);
             if(vWSPrice>0){
                 multiplyOfVwSPrice *= vWSPrice;
                 count++;
